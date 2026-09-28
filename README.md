@@ -1,38 +1,90 @@
-# ECUGRIN
+<p align="center">
+  <img src="https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/logo.png?raw=true" alt="ECUGRIN Logo" width="420">
+</p>
 
-# ALL ECU SOLUTIONS & DATABASES
+<h1 align="center">ECUGRIN</h1>
 
-> **ECUGRIN** is a modern ECU file management, analysis and database platform designed for automotive calibration workflows, ECU identification and fast access to structured file databases.
+<h3 align="center">ALL ECU SOLUTIONS & DATABASES</h3>
+
+<p align="center">
+  <strong>Modern ECU file management, analysis and database platform.</strong>
+</p>
+
+<p align="center">
+  <a href="https://ecugrin.pl">🌐 Website</a>
+  &nbsp;•&nbsp;
+  <a href="https://discord.gg/42XubFP6F7">💬 Discord</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/grinlipton/ecugrin">📦 GitHub</a>
+</p>
 
 ---
 
 ## 🚀 About
 
-**ECUGRIN** is built around one simple idea:
+**ECUGRIN** is a modern ECU file management, analysis and database platform designed for automotive calibration workflows, ECU identification and fast access to structured ECU file databases.
 
-**Find the right ECU file faster.**
+The platform is built around one simple idea:
 
-The platform combines a modern desktop application with a centralized backend and a large ECU file database, making it easier to analyze files, identify ECU families, search available solutions and manage files in one place.
+> **Find the right ECU file faster.**
 
-From a single ECU file to a complete database of thousands of files — ECUGRIN is designed to keep the workflow fast, organized and scalable.
+ECUGRIN combines a modern desktop application with a centralized backend and a continuously expanding ECU database.
+
+The platform is designed to make ECU file analysis, identification, searching and database management faster, cleaner and easier to organize.
+
+From a single ECU file to a database containing thousands of files, ECUGRIN is designed to provide a structured and scalable environment for ECU file management.
 
 ---
 
-## 📸 Screenshots
+## 🌐 Official Website
 
-### First Start
+Visit the official ECUGRIN website:
+
+**https://ecugrin.pl**
+
+The website provides information about the project, downloads and additional resources.
+
+---
+
+## 💬 Discord Community
+
+Join the official ECUGRIN Discord:
+
+**https://discord.gg/42XubFP6F7**
+
+Discord is the main communication channel for the project.
+
+Important information about ECUGRIN is published there, including:
+
+- 📢 Project announcements
+- 🆕 Application updates
+- 🛠️ Development progress
+- 🐛 Bug reports
+- 💡 Feature discussions
+- 🗄️ Database updates
+- 🚀 Future plans
+- 💬 Community support
+- ⚠️ Maintenance information
+
+**For the latest ECUGRIN news and development information, follow the official Discord server.**
+
+---
+
+# 📸 Screenshots
+
+## First Start
 
 The initial ECUGRIN screen displayed when launching the application.
 
 ![ECUGRIN First Start](https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/first-start.png?raw=true)
 
-### Loading Screen
+## Loading Screen
 
 The loading screen displayed while ECUGRIN initializes the application and prepares the required components.
 
 ![ECUGRIN Loading Screen](https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/loading-screeen.png?raw=true)
 
-### Main Menu
+## Main Menu
 
 The main ECUGRIN interface providing access to the application's core functionality.
 
@@ -40,44 +92,58 @@ The main ECUGRIN interface providing access to the application's core functional
 
 ---
 
-## ⚡ Features
+# ⚡ Features
 
-### 🔍 ECU File Analysis
+## 🔍 ECU File Analysis
 
-Analyze ECU files and extract available identification data such as:
+ECUGRIN can analyze ECU files and extract available identification data such as:
 
-* OEM / ECU numbers
-* Bosch numbers
-* Software information
-* Software versions
-* ECU type
-* File size
-* SHA-256
-* ECU family information
+- OEM / ECU numbers
+- Bosch numbers
+- Software information
+- Software versions
+- ECU type
+- File size
+- SHA-256
+- ECU family information
 
-### 🗂️ ECU Database
+The analysis process is designed to provide the information required to identify an ECU and find relevant files in the database.
 
-Access a structured database of ECU files organized into solution categories:
+---
 
-* `ORIGINAL`
-* `STAGE 1`
-* `STAGE 2`
-* `STAGE 3`
-* `DPF OFF`
-* `DPF + EGR OFF`
-* `EGR OFF`
+## 🗂️ ECU Database
 
-The database is continuously expandable and designed to handle large collections of ECU files.
+ECUGRIN provides access to a structured ECU file database organized into solution categories:
 
-### 🔎 Fast File Search
+- `ORIGINAL`
+- `STAGE 1`
+- `STAGE 2`
+- `STAGE 3`
+- `DPF OFF`
+- `DPF + EGR OFF`
+- `EGR OFF`
 
-Search through the database using file names and ECU-related information.
+The database is continuously expanded and improved as the project develops.
 
-The search system is optimized for large databases to keep response times low as the number of files grows.
+---
 
-### 📁 Universal File Support
+## 🔎 Fast File Search
 
-ECUGRIN is designed to work with ECU files regardless of their filename or extension.
+Search through the database using:
+
+- File names
+- ECU information
+- Hardware numbers
+- Software numbers
+- ECU identification data
+
+The search system is designed to remain responsive as the database grows.
+
+---
+
+## 📁 Universal File Support
+
+ECUGRIN is designed to work with ECU files regardless of their original filename or extension.
 
 Examples:
 
@@ -92,4 +158,3 @@ Examples:
 .egroff
 .dpfoff
 .egrdpfoff
-```
