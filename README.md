@@ -18,31 +18,54 @@ From a single ECU file to a complete database of thousands of files — ECUGRIN 
 
 ---
 
+## 📸 Screenshots
+
+### First Start
+
+The initial ECUGRIN screen displayed when launching the application.
+
+![ECUGRIN First Start](https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/first-start.png?raw=true)
+
+### Loading Screen
+
+The loading screen displayed while ECUGRIN initializes the application and prepares the required components.
+
+![ECUGRIN Loading Screen](https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/loading-screeen.png?raw=true)
+
+### Main Menu
+
+The main ECUGRIN interface providing access to the application's core functionality.
+
+![ECUGRIN Main Menu](https://github.com/grinlipton/ecugrin/blob/v1.0.1-Beta/menu.png?raw=true)
+
+---
+
 ## ⚡ Features
 
 ### 🔍 ECU File Analysis
+
 Analyze ECU files and extract available identification data such as:
 
-- OEM / ECU numbers
-- Bosch numbers
-- Software information
-- Software versions
-- ECU type
-- File size
-- SHA-256
-- ECU family information
+* OEM / ECU numbers
+* Bosch numbers
+* Software information
+* Software versions
+* ECU type
+* File size
+* SHA-256
+* ECU family information
 
 ### 🗂️ ECU Database
 
 Access a structured database of ECU files organized into solution categories:
 
-- `ORIGINAL`
-- `STAGE 1`
-- `STAGE 2`
-- `STAGE 3`
-- `DPF OFF`
-- `DPF + EGR OFF`
-- `EGR OFF`
+* `ORIGINAL`
+* `STAGE 1`
+* `STAGE 2`
+* `STAGE 3`
+* `DPF OFF`
+* `DPF + EGR OFF`
+* `EGR OFF`
 
 The database is continuously expandable and designed to handle large collections of ECU files.
 
@@ -69,3 +92,4 @@ Examples:
 .egroff
 .dpfoff
 .egrdpfoff
+```
